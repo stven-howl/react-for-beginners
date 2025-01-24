@@ -1,0 +1,1 @@
+{"version":3,"file":"static/css/main.dc1aaee5.css","mappings":"AAAA,mBAEE,uBAAwB,CADxB,UAEF,CCHA,kBACE,uCAA4C,CAC5C,cACF","sources":["Button.module.css","App.module.css"],"sourcesContent":[".btn {\r\n  color: white;\r\n  background-color: tomato;\r\n}\r\n",".title {\r\n  font-family: \"Times New Roman\", Times, serif;\r\n  font-size: 18px;\r\n}\r\n"],"names":[],"sourceRoot":""}
