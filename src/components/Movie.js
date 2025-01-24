@@ -6,7 +6,7 @@ function Movie({ movie, id, medium_cover_image, title, summary, genres }) {
     <div>
       <img src={medium_cover_image} alt={title} />
       <Link to={`/movie/${id}`}>{title}</Link>
-      <p>{summary}</p>
+      <p>{summary.length > 235 ? `${summary.slice(0, 235)} ...` : summary}</p>
       {movie.hasOwnProperty("genres") ? (
         <ul>
           {genres.map((genre) => (
